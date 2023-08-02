@@ -1,0 +1,4 @@
+.addBtn{
+    background-image: url("../../../img/header/add.svg");
+    flex-shrink: 0;
+}

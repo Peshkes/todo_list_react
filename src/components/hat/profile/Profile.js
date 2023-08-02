@@ -5,7 +5,7 @@ class Profile extends Component {
     render() {
         return (
             <div  className={'profile'}>
-
+                <div className={'profileWindow'}></div>
             </div>
         );
     }

@@ -11,9 +11,12 @@ class Hat extends Component {
         return (
             <header className={'hat'}>
                 <Menu/>
-                <Search/>
-                <h1>Task book</h1>
+                <div className={'siteName'}>
+                    <h1>Task book</h1>
+                </div>
+                <div className={'emptyBlock'}/>
                 <AddTask/>
+                <Search/>
                 <Theme/>
                 <Profile/>
             </header>

@@ -5,7 +5,7 @@ class Menu extends Component {
     render() {
         return (
             <nav className={'menu'}>
-
+                <button className={'menuBtn'}/>
             </nav>
         );
     }

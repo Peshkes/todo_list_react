@@ -1,0 +1,16 @@
+.profile{
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.profileWindow{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-image: url("../../../img/header/testPhoto.png");
+    background-size: cover;
+}

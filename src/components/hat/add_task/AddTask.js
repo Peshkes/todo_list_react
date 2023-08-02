@@ -5,7 +5,7 @@ class AddTask extends Component {
     render() {
         return (
             <div className={'addTask'}>
-
+                <button className={'addBtn'}/>
             </div>
         );
     }

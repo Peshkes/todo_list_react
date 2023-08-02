@@ -5,7 +5,7 @@ class Theme extends Component {
     render() {
         return (
             <div  className={'theme'}>
-
+                <button className={'themeBtn'}/>
             </div>
         );
     }
