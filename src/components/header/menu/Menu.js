@@ -1,11 +1,11 @@
-import './Menu.css';
+import style from './menu_module.css';
 import React, {Component} from 'react';
 
 class Menu extends Component {
     render() {
         return (
-            <nav className={'menu'}>
-                <button className={'menuBtn'}/>
+            <nav className={style.menu}>
+                <button className={style.menuBtn}/>
             </nav>
         );
     }

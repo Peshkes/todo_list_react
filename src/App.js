@@ -1,7 +1,7 @@
 import './App.css';
 import React, {Component} from 'react';
-import Hat from "./components/hat/Hat";
 import Main from "./components/main/Main";
+import Header from "./components/header/Header";
 
 class App extends Component {
     constructor(props) {
@@ -12,7 +12,7 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                <Hat/>
+                <Header/>
                 <Main/>
             </div>
         );

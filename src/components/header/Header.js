@@ -1,20 +1,20 @@
-import './Hat.css';
+import style from './header_module.css';
 import React, {Component} from 'react';
 import Menu from "./menu/Menu";
 import AddTask from "./add_task/AddTask";
 import Theme from "./theme/Theme";
 import Profile from "./profile/Profile";
 import Search from "./search/Search";
+import EmptyBlock from "./empty_block/EmptyBlock";
+import SiteName from "./site_name/SiteName";
 
-class Hat extends Component {
+class Header extends Component {
     render() {
         return (
-            <header className={'hat'}>
+            <header className={style.hat}>
                 <Menu/>
-                <div className={'siteName'}>
-                    <h1>Task book</h1>
-                </div>
-                <div className={'emptyBlock'}/>
+                <SiteName/>
+                <EmptyBlock/>
                 <AddTask/>
                 <Search/>
                 <Theme/>
@@ -24,4 +24,4 @@ class Hat extends Component {
     }
 }
 
-export default Hat;
+export default Header;

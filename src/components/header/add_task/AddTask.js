@@ -1,11 +1,11 @@
-import './AddTask.css';
+import style from './addTask_module.css';
 import React, {Component} from 'react';
 
 class AddTask extends Component {
     render() {
         return (
-            <div className={'addTask'}>
-                <button className={'addBtn'}/>
+            <div className={style.addTask}>
+                <button className={style.addBtn}/>
             </div>
         );
     }
