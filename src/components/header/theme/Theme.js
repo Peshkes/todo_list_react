@@ -1,4 +1,4 @@
-import style from './theme_module.css';
+import style from './theme.module.css';
 import React, {Component} from 'react';
 
 class Theme extends Component {

@@ -1,4 +1,4 @@
-import style from './siteName_module.css';
+import style from './siteName.module.css';
 import React, {Component} from 'react';
 
 class Search extends Component {

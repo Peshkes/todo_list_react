@@ -1,4 +1,4 @@
-import style from './emptyBlock_module.css';
+import style from './emptyBlock.module.css';
 import React, {Component} from 'react';
 
 class EmptyBlock extends Component {

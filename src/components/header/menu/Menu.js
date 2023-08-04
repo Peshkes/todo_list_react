@@ -1,12 +1,12 @@
-import style from './menu_module.css';
+import style from './menu.module.css';
 import React, {Component} from 'react';
 
 class Menu extends Component {
     render() {
         return (
-            <nav className={style.menu}>
+            <div className={style.menu}>
                 <button className={style.menuBtn}/>
-            </nav>
+            </div>
         );
     }
 }

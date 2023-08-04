@@ -1,4 +1,4 @@
-import style from './addTask_module.css';
+import style from './addTask.module.css';
 import React, {Component} from 'react';
 
 class AddTask extends Component {

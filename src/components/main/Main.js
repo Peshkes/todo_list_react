@@ -1,4 +1,4 @@
-import style from './main_module.css';
+import style from './main.module.css';
 import React, {Component} from 'react';
 import TaskList from "./task_list/TaskList";
 import Task from "./task/Task";

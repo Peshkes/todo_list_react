@@ -1,4 +1,4 @@
-import style from './header_module.css';
+import style from './header.module.css';
 import React, {Component} from 'react';
 import Menu from "./menu/Menu";
 import AddTask from "./add_task/AddTask";

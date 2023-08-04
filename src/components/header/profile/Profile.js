@@ -1,4 +1,4 @@
-import style from './prodile_module.css';
+import style from './prodile.module.css';
 import React, {Component} from 'react';
 
 class Profile extends Component {

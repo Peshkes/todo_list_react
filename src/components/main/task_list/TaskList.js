@@ -1,4 +1,4 @@
-import style from './taskList_module.css';
+import style from './taskList.module.css';
 import React, {Component} from 'react';
 
 class TaskList extends Component {

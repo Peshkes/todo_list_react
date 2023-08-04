@@ -1,0 +1,9 @@
+.siteName{
+    padding-top: 4px;
+    width: 250px;
+    flex-shrink: 0;
+}
+h1{
+    font-size: 2.88rem;
+    font-weight: normal;
+}
