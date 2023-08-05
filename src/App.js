@@ -6,14 +6,22 @@ import Header from "./components/header/Header";
 class App extends Component {
     constructor(props) {
         super(props);
-        this.state = {};
+        this.state = {
+            isFolderListOpen: false
+        };
+    }
+
+    toggleFolderList = () => {
+        this.setState((prevState) => ({
+            isFolderListOpen: !prevState.isFolderListOpen
+        }));
     }
 
     render() {
         return (
             <div className="App">
-                <Header/>
-                <Main/>
+                <Header toggleFolderList={this.toggleFolderList}/>
+                <Main isFolderListOpen={this.state.isFolderListOpen}/>
             </div>
         );
     }

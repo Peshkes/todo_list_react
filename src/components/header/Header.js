@@ -12,7 +12,7 @@ class Header extends Component {
     render() {
         return (
             <header className={style.hat}>
-                <Menu/>
+                <Menu toggleFolderList={this.props.toggleFolderList}/>
                 <SiteName/>
                 <EmptyBlock/>
                 <AddTask/>

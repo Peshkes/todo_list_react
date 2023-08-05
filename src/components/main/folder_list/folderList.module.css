@@ -1,0 +1,10 @@
+.folderList {
+    background-color: #dfe5e5;
+    min-width: 200px;
+    max-width: 600px;
+    width: 300px;
+    height: 100%;
+    resize: horizontal;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}

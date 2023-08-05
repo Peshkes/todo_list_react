@@ -3,8 +3,11 @@ body {
   font-family: "Champagne & Limousines", Champange, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #eceeee;
 }
-
+h1{
+  text-transform: uppercase;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -18,3 +21,4 @@ code {
   src: url("./fonts/champagne_Limousines_Bold.ttf") format("truetype");
   font-weight: bold;
 }
+
