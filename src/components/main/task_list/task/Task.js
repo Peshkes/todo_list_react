@@ -13,7 +13,7 @@ class Task extends Component {
     render() {
         return (
             <div className={style.task}>
-                <p></p>
+                <p>{this.props.text}</p>
             </div>
         );
     }

@@ -5,12 +5,10 @@ import TestData from "../../../utils/constants";
 
 class FolderList extends Component {
     render() {
-        console.log(TestData.getCustomFolders());
         return (
             <div className={style.folderList}>
-                <Folder name={'today'}/>
-                <Folder name={'tomorrow'}/>
-                {TestData.getCustomFolders().map(item => <Folder name={item}/>)}
+                {TestData.startFolders.map((item, index) =>
+                    <Folder isActive={(index === this.props.selectedFolder)} name={item.name} index={index} selectFolder={this.props.selectFolder} key={'folder_' + index}/>)}
             </div>
         );
     }
